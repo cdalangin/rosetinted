@@ -10,7 +10,7 @@ export default function Landing() {
     return(
         <div className="landing">
             {/* <img src={LandImg} alt="landing window" className="landing-img"/> */}
-            <div className="landing-img" style={{backgroundImage: `url(${LandImg})`,backgroundRepeat:"no-repeat" ,backgroundSize:"contain"}}>
+            <div className="landing-img" > 
                 <div className="landing-buttons">
                     <img src={Info} alt="info" className="land-but info-button" />
                     <img src={Settings} alt="settings" className="land-but settings-button" />

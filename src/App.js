@@ -13,9 +13,9 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/rosetinted" element={<Landing />} />
-      <Route path="/rosetinted/grid" element={<Grid />} />
-      <Route path="/rosetinted/graphics" element={<Graphics />} />
+      <Route path="/" element={<Landing />} />
+      <Route path="/grid" element={<Grid />} />
+      <Route path="/graphics" element={<Graphics />} />
     </Routes>
   </BrowserRouter>
   );
