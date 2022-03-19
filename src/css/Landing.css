@@ -1,0 +1,23 @@
+.landing {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.landing-img {
+    /* width: 90vw; */
+    /* background-image: url(../assets/FullLanding.png); */
+    position: relative;
+}
+
+.landing-buttons {
+    height: 10vh;
+    position: absolute;
+    top: 0;
+}
+
+.land-but {
+    height: 100%;
+}
