@@ -3,13 +3,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background-color: #fbeef5;
+    background-image: url("../assets/whitegrid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .landing-img {
     width: 100vw;
     height: 100vh;
-    background-image: url("../assets/Landing.png");
+    background-image: url("../assets/smallbrowser.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -17,11 +21,6 @@
     
 }
 
-@media screen and (min-width: 1000px) {
-    .landing-img {
-        background-image: url("../assets/FullLanding.png");
-    }
-}
 
 .landing-buttons {
     height: 8%;
@@ -30,20 +29,36 @@
     position: absolute;
     top:65%;
     left: 14%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: none;
+    
 }
 
-@media screen and (min-width: 1230px) {
+@media screen and (min-width: 1000px) {
+    .landing-img {
+        background-image: url("../assets/FullLanding.png");
+    }
+
+    .landing-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     .landing-buttons {
         top: 70%;
         height: 10%;
+        
     }
 }
 
 .land-but {
     height: 100%;
     margin: 1em;
+}
+
+.start-button, .info-button, .settings-button {
+    height: 100%;
 }

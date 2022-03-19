@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import {  BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
 
-import Landing from './pages/Landing.js'
-import Grid from './pages/Grid.js'
-import Graphics from './pages/Graphics.js'
+import MainPage from './pages/MainPage'
+import About from './pages/About.js'
+import Settings from './pages/Settings.js'
 
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Landing />} />
-      <Route path="/grid" element={<Grid />} />
-      <Route path="/graphics" element={<Graphics />} />
-    </Routes>
-  </BrowserRouter>
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

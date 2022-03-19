@@ -4,7 +4,7 @@ export default function Grid() {
 
     return(
         <>
-            <h1>Grid Page</h1>
+            <h1 id="grid">Grid Page</h1>
         </>
 
     )
