@@ -3,12 +3,18 @@
     src: url("../assets/fonts/LemonTea.ttf") format("truetype");
 }
 
+.about-page {
+    background-color: #fbeef5;
+    background-image: url("../assets/whitegrid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .abt {
     background-repeat: no-repeat;
-    background-size: contain;
-    /* height: 33.33vh; */
-    width: 100vw;
+    background-size: 90vw;
+    max-width: 100vw;
 }
 
 .abt-head {
@@ -19,17 +25,29 @@
 
 .abt-base {
     background-image: url("../assets/set-base.png");
-    /* background-repeat: repeat-y; */
+    background-repeat: repeat-y;
     background-position: center;
-    min-height: 33.33vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.elevator {
+.abt-text {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-btn {
+    height: 5vh;
+    align-self: flex-end;
+}
+
+.bb {
+    height: 100%;
 }
 
 .abt-foot {

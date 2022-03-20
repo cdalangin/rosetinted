@@ -10,21 +10,21 @@ h1 {
 .set {
     
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 33.33vh;
+    background-size: 90vw;
     width: 100vw;
 }
 
 .set-head {
     background-image: url("../assets/set-head.png");
     background-position: bottom;
+    height: 33.33vh;
 }
 
 .set-base {
     background-image: url("../assets/set-base.png");
     background-repeat: repeat-y;
     background-position: center;
-
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,4 +34,5 @@ h1 {
 .set-foot {
     background-image: url("../assets/set-foot.png");
     background-position: top;
+    height: 33.33vh;
 }
