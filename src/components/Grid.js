@@ -1,11 +1,12 @@
 import React from 'react';
+import "../css/Grid.css"
 
 export default function Grid() {
 
     return(
-        <>
-            <h1 id="grid">Grid Page</h1>
-        </>
+        <div id="grid" className="grid-sec">
+            <h1>Grid Page</h1>
+        </div>
 
     )
 }
