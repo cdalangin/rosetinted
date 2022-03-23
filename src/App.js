@@ -12,9 +12,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<MainPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/settings" element={<Settings />} />
-        <Route path="/" element={<MainPage />} />
       </Routes>
     </BrowserRouter>
   );

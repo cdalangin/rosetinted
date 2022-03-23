@@ -1,12 +1,12 @@
 import React from 'react';
 import Landing from "../components/Landing";
-import Grid from "../components/Grid"
+import Insta from "../components/Insta"
 
 export default function MainPage() {
     return (
         <>
             <Landing />
-            <Grid/>
+            <Insta/>
         </>
     )
 }

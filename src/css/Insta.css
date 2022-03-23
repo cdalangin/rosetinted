@@ -1,0 +1,11 @@
+.insta-sec {
+    height: 100vh;
+}
+
+.ipad {
+    background-image: url("../assets/ipad.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90vw;
+    height: 100vh;
+}

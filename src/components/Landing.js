@@ -12,20 +12,19 @@ export default function Landing() {
 
     return(
         <div className="landing">
-            <div className="landing-img" > 
+            <div className="landing-img hvr-hang" > 
                 <div className="landing-buttons">
                     <Link to="/about" className="land-but">
                         <img src={Info} alt="info" className="info-button" />
-                    </Link>
+                    </Link>``
                     <Link to="/settings" className="land-but">
                         <img src={Settings} alt="settings" className="settings-button" />
                     </Link>
-                    <HashLink smooth to="/#grid" className="land-but">
+                    <HashLink smooth to="/#insta" className="land-but">
                         <img src={Start} alt="get started" className="start-button" />
                     </HashLink>
                 </div>
             </div>
-
         </div>
 
     )
