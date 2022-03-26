@@ -12,9 +12,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/settings" element={<Settings />} />
+        <Route path="/rosetinted" element={<MainPage />} />
+        <Route path="/rosetinted/about" element={<About />} />
+        <Route path="/rosetinted/settings" element={<Settings />} />
       </Routes>
     </BrowserRouter>
   );

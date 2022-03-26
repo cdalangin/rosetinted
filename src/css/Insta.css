@@ -2,10 +2,37 @@
     height: 100vh;
 }
 
+.insta-title {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+/* TODO: shut down if not right size */
 .ipad {
     background-image: url("../assets/ipad.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-ipad {
+    height: 43vw;
+    width: 60vw;
+    background-color: aqua;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.in-ipad::-webkit-scrollbar {
+    display: none;
+  }
+
+.insta-pics {
+    display: flex;
+    justify-content: center;
 }

@@ -16,7 +16,7 @@ export default function Landing() {
                 <div className="landing-buttons">
                     <Link to="/about" className="land-but">
                         <img src={Info} alt="info" className="info-button" />
-                    </Link>``
+                    </Link>
                     <Link to="/settings" className="land-but">
                         <img src={Settings} alt="settings" className="settings-button" />
                     </Link>
