@@ -14,13 +14,13 @@ export default function Landing() {
         <div className="landing">
             <div className="landing-img hvr-hang" > 
                 <div className="landing-buttons">
-                    <Link to="/about" className="land-but">
+                    <Link to="/rosetinted/about" className="land-but">
                         <img src={Info} alt="info" className="info-button" />
                     </Link>
-                    <Link to="/settings" className="land-but">
+                    <Link to="/rosetinted/settings" className="land-but">
                         <img src={Settings} alt="settings" className="settings-button" />
                     </Link>
-                    <HashLink smooth to="/#insta" className="land-but">
+                    <HashLink smooth to="/rosetinted/#insta" className="land-but">
                         <img src={Start} alt="get started" className="start-button" />
                     </HashLink>
                 </div>

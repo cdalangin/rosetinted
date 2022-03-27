@@ -1,5 +1,5 @@
 .insta-sec {
-    height: 100vh;
+    height: 85vh;
 }
 
 .insta-title {
@@ -9,24 +9,38 @@
 
 /* TODO: shut down if not right size */
 .ipad {
-    background-image: url("../assets/ipad.png");
+    background-image: url("../assets/smallipad.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90vw;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .in-ipad {
-    height: 43vw;
-    width: 60vw;
-    background-color: aqua;
-    overflow: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none; 
+    display: none;
 }
+
+@media screen and (min-width: 1000px) {
+    .insta-sec {
+        height: 100vh;
+    }
+    .ipad {
+        background-image: url("../assets/ipad.png");
+        height: 85vh;
+    }
+    .in-ipad {
+        display: flex;
+        height: 43vw;
+        width: 60vw;
+        background-color: aqua;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none; 
+    }
+}
+
 
 .in-ipad::-webkit-scrollbar {
     display: none;
