@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rosetinted/static/css/main.4fdbf5c7.css",
-    "main.js": "/rosetinted/static/js/main.5303132a.js",
+    "main.js": "/rosetinted/static/js/main.efe19169.js",
     "static/js/787.1ef55504.chunk.js": "/rosetinted/static/js/787.1ef55504.chunk.js",
     "static/media/FullLanding.png": "/rosetinted/static/media/FullLanding.28df233b82bbb3f94f80.png",
     "static/media/smallbrowser.png": "/rosetinted/static/media/smallbrowser.02b4433d6535cdea97ef.png",
@@ -22,11 +22,11 @@
     "static/media/goback.png": "/rosetinted/static/media/goback.3e2788dd55175df9cd1b.png",
     "index.html": "/rosetinted/index.html",
     "main.4fdbf5c7.css.map": "/rosetinted/static/css/main.4fdbf5c7.css.map",
-    "main.5303132a.js.map": "/rosetinted/static/js/main.5303132a.js.map",
+    "main.efe19169.js.map": "/rosetinted/static/js/main.efe19169.js.map",
     "787.1ef55504.chunk.js.map": "/rosetinted/static/js/787.1ef55504.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fdbf5c7.css",
-    "static/js/main.5303132a.js"
+    "static/js/main.efe19169.js"
   ]
 }
