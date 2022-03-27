@@ -29,7 +29,7 @@ export default function Settings() {
 
                     <h3>Credits</h3>
 
-                    <Link to="/" className="back-btn">
+                    <Link to="/rosetinted" className="back-btn">
                         <img src={Back} alt="back button" className="bb" />
                     </Link>
                 </div>

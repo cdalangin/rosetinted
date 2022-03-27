@@ -1,5 +1,5 @@
 import React from 'react';
-import Info from "../assets/info.png";
+import Info from "../assets/info2.png";
 import Settings from "../assets/settings.png";
 import Start from "../assets/getstarted.png";
 import "../css/Landing.css"
@@ -17,9 +17,9 @@ export default function Landing() {
                     <Link to="/rosetinted/about" className="land-but">
                         <img src={Info} alt="info" className="info-button" />
                     </Link>
-                    <Link to="/rosetinted/settings" className="land-but">
+                    {/* <Link to="/rosetinted/settings" className="land-but">
                         <img src={Settings} alt="settings" className="settings-button" />
-                    </Link>
+                    </Link> */}
                     <HashLink smooth to="/rosetinted/#insta" className="land-but">
                         <img src={Start} alt="get started" className="start-button" />
                     </HashLink>
