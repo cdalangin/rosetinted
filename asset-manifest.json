@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/rosetinted/static/css/main.01f59f24.css",
-    "main.js": "/rosetinted/static/js/main.7461e9a7.js",
+    "main.css": "/rosetinted/static/css/main.4fdbf5c7.css",
+    "main.js": "/rosetinted/static/js/main.5303132a.js",
     "static/js/787.1ef55504.chunk.js": "/rosetinted/static/js/787.1ef55504.chunk.js",
-    "static/media/FullLanding.png": "/rosetinted/static/media/FullLanding.2ea90cb3dcd61709b361.png",
+    "static/media/FullLanding.png": "/rosetinted/static/media/FullLanding.28df233b82bbb3f94f80.png",
     "static/media/smallbrowser.png": "/rosetinted/static/media/smallbrowser.02b4433d6535cdea97ef.png",
+    "static/media/smallipad.png": "/rosetinted/static/media/smallipad.2b2bea304007c0357a1a.png",
     "static/media/imgf.jpg": "/rosetinted/static/media/imgf.1c1eba7f049e300cb399.jpg",
     "static/media/abt-head.png": "/rosetinted/static/media/abt-head.7aeecba64660d8ebdd3d.png",
     "static/media/imga.png": "/rosetinted/static/media/imga.5b2ad37a8d28bb4e5e64.png",
@@ -20,12 +21,12 @@
     "static/media/getstarted.png": "/rosetinted/static/media/getstarted.e82cdeb51f38e1ed1ebf.png",
     "static/media/goback.png": "/rosetinted/static/media/goback.3e2788dd55175df9cd1b.png",
     "index.html": "/rosetinted/index.html",
-    "main.01f59f24.css.map": "/rosetinted/static/css/main.01f59f24.css.map",
-    "main.7461e9a7.js.map": "/rosetinted/static/js/main.7461e9a7.js.map",
+    "main.4fdbf5c7.css.map": "/rosetinted/static/css/main.4fdbf5c7.css.map",
+    "main.5303132a.js.map": "/rosetinted/static/js/main.5303132a.js.map",
     "787.1ef55504.chunk.js.map": "/rosetinted/static/js/787.1ef55504.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01f59f24.css",
-    "static/js/main.7461e9a7.js"
+    "static/css/main.4fdbf5c7.css",
+    "static/js/main.5303132a.js"
   ]
 }
