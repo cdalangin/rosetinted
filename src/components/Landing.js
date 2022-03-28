@@ -10,9 +10,13 @@ import {Link} from "react-router-dom";
 
 export default function Landing() {
     const {showState, toggleStates} = useContext(StateContext)
-    
-    const handleClick = () => {
-        toggleStates(true)
+    console.log("old", showState)
+
+    const showInsta = () => {
+        const data = [...showState]
+        data[0] = true
+
+        toggleStates(data)
     }
 
     return(
@@ -25,7 +29,7 @@ export default function Landing() {
                     {/* <Link to="/rosetinted/settings" className="land-but">
                         <img src={Settings} alt="settings" className="settings-button" />
                     </Link> */}
-                    <HashLink smooth to="/rosetinted/#insta" className="land-but" onClick={handleClick}>
+                    <HashLink smooth to="/rosetinted/#insta" className="land-but"onClick={showInsta} >
                         <img src={Start} alt="get started" className="start-button" />
                     </HashLink>
                 </div>
