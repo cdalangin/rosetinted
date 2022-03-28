@@ -34,11 +34,27 @@
     justify-content: center;
 }
 
+.abt-titles {
+    font-family: "LemonTea";
+    color: #9680a8;
+}
+
 .abt-text {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.all-creds {
+    display: flex;
+    flex-direction: column;
+}
+
+.creds {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
 }
 
 .back-btn {

@@ -10,7 +10,7 @@ export default function Settings() {
             <div className="abt abt-head"></div>
             <div className="abt abt-base">
                 <div className="abt-text">
-                    <h3>About Rose-Tinted Glasses</h3>
+                    <h3 className="abt-titles">About Rose-Tinted Glasses</h3>
                     <p className="elevator">Social media is such a powerful tool for 
                     people to connect and share their lives with the world. People can 
                     share a stylish photo, a new achievement, or even just what they’re 
@@ -23,11 +23,15 @@ export default function Settings() {
                     what possibly lies underneath these picture perfect images and remind 
                     people that they are exactly where they need to be.</p>
 
-                    <h3>Disclaimer:</h3>
+                    <h3 className="abt-titles">Disclaimer:</h3>
                     <p>The original posters of the images in the grid do not necessarily 
-                        convey the harmful messages mentioned in this __. </p>
+                        convey the harmful messages mentioned in this presentation. </p>
 
-                    <h3>Credits</h3>
+                    <h3 className="abt-titles">Credits</h3>
+                    <div className="all-creds">
+                        <a href="https://www.flaticon.com/free-icons/leaf" title="leaf icons" className="creds">Leaf icons created by Good Ware - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/heart" title="heart icons" className="creds">Heart icons created by smalllikeart - Flaticon</a>
+                    </div>
 
                     <Link to="/rosetinted" className="back-btn">
                         <img src={Back} alt="back button" className="bb" />

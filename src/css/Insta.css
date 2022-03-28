@@ -1,5 +1,5 @@
 .insta-sec {
-    height: 85vh;
+    height: 100vh;
 }
 
 .insta-title {
@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,16 +23,14 @@
 }
 
 @media screen and (min-width: 1000px) {
-    .insta-sec {
-        height: 100vh;
-    }
     .ipad {
         background-image: url("../assets/ipad.png");
-        height: 85vh;
+        /* background-size: 80vw; */
+        min-height: 100vh;
     }
     .in-ipad {
         display: flex;
-        height: 43vw;
+        height: 44vw;
         width: 60vw;
         background-color: aqua;
         overflow: scroll;
