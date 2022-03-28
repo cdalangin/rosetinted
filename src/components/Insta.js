@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
+import {StateContext} from "../pages/MainPage"
 import "../css/Insta.css"
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
@@ -22,7 +23,7 @@ import LoremA from '../assets/gridimg/lorem.png'
 import LoremB from '../assets/gridimg/lorem2.png'
 
 export default function Insta() {
-    const imgs = [Img1, Img2, Img3, Img4, Img5, Img6, Img7]
+    const imgs = [Img1, Img2, Img3, Img4, Img5, Img6, Img7] //imgs[index]
     const alts = [Alt1, Alt2, Alt3, Alt4, Alt5, Alt6, Alt5] 
 
     const [swirl, setSwirl] = useState(LoremA);
@@ -36,10 +37,10 @@ export default function Insta() {
                         <Grid container columns={{ xs: 4, lg: 6}}>
                             {imgs.map((_, index) => (
                             <Grid item xs={2} key={index} className="insta-pics">
-                                <img src={imgs[index]} alt="images" width="100%" 
+                                <img src={LoremA} alt="images" width="100%" 
                                 
                                     onMouseEnter={(e) => e.currentTarget.src = alts[index]}
-                                    onMouseLeave={(e) => e.currentTarget.src = imgs[index]}
+                                    onMouseLeave={(e) => e.currentTarget.src = LoremA}
                                 />
                             </Grid>
                             ))}

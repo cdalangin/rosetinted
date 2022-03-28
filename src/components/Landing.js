@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {StateContext} from "../components/StateContext"
 import Info from "../assets/info2.png";
 import Settings from "../assets/settings.png";
 import Start from "../assets/getstarted.png";
@@ -7,8 +8,12 @@ import "../css/Landing.css"
 import { HashLink } from 'react-router-hash-link';
 import {Link} from "react-router-dom";
 
-
 export default function Landing() {
+    const {showState, toggleStates} = useContext(StateContext)
+    
+    const handleClick = () => {
+        toggleStates(true)
+    }
 
     return(
         <div className="landing">
@@ -20,7 +25,7 @@ export default function Landing() {
                     {/* <Link to="/rosetinted/settings" className="land-but">
                         <img src={Settings} alt="settings" className="settings-button" />
                     </Link> */}
-                    <HashLink smooth to="/rosetinted/#insta" className="land-but">
+                    <HashLink smooth to="/rosetinted/#insta" className="land-but" onClick={handleClick}>
                         <img src={Start} alt="get started" className="start-button" />
                     </HashLink>
                 </div>

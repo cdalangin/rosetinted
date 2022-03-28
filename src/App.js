@@ -9,6 +9,7 @@ import About from './pages/About.js'
 import Settings from './pages/Settings.js'
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
