@@ -1,6 +1,6 @@
 import React, {createContext} from 'react';
 
 export const StateContext = createContext({
-    showState: true,
+    showState: [false, false],
     toggleStates: () => {}
 })

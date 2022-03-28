@@ -4,14 +4,14 @@ import Landing from "../components/Landing";
 import Insta from "../components/Insta"
 
 export default function MainPage() {
-    const [showState, toggleStates] = useState(false);
+    const [showState, toggleStates] = useState([false, false]);
     const value = {showState, toggleStates}
-
+    console.log(showState, "IN MAIN")
     return (
         <>
         <StateContext.Provider value={value}>
             <Landing />
-            {showState && <Insta/>}
+            {showState[0] && <Insta/>}
         </StateContext.Provider>
         </>
     )
