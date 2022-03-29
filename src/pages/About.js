@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/About.css"
-import Back from "../assets/goback.png"
+import Back from "../assets/buttons/goback.png"
 import {Link} from "react-router-dom";
 
 export default function Settings() {
