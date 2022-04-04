@@ -7,6 +7,7 @@
     margin-top: 10vh;
 }
 
+
 /* TODO: shut down if not right size */
 .ipad {
     background-image: url("../assets/smallipad.png");
@@ -47,4 +48,26 @@
 .insta-pics {
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
 }
+
+.testInsta {
+    position: relative;
+    width: 100%;
+    background-image: url("../assets/gridimg/imgb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.testInsta:hover {
+    background-image: url("../assets/gridimg/alta.jpg");
+}
+
+.testInsta:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    z-index: -100;
+  }
