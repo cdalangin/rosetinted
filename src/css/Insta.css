@@ -7,8 +7,6 @@
     margin-top: 10vh;
 }
 
-
-/* TODO: shut down if not right size */
 .ipad {
     background-image: url("../assets/smallipad.png");
     background-repeat: no-repeat;
@@ -51,23 +49,82 @@
     background-color: aquamarine;
 }
 
-.testInsta {
+.ipad-imgs {
     position: relative;
     width: 100%;
-    background-image: url("../assets/gridimg/imgb.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition: 0.5s;
 }
 
-.testInsta:hover {
-    background-image: url("../assets/gridimg/alta.jpg");
-}
-
-.testInsta:after {
+.ipad-imgs:after {
     content: "";
     display: block;
     padding-bottom: 100%;
     z-index: -100;
   }
+
+.insta0 {
+    background-image: url("../assets/gridimg/imgb.png");
+}
+
+.insta0:hover {
+    background-image: url("../assets/gridimg/alta.jpg");
+}
+
+.insta1 {
+    background-image: url("../assets/gridimg/imgb.png");
+}
+
+.insta1:hover {
+    background-image: url("../assets/gridimg/altb.jpg");
+}
+
+.insta2 {
+    background-image: url("../assets/gridimg/imgc.png");
+}
+
+.insta2:hover {
+    background-image: url("../assets/gridimg/altc.jpg");
+}
+
+.insta3 {
+    background-image: url("../assets/gridimg/imgd.png");
+}
+
+.insta3:hover {
+    background-image: url("../assets/gridimg/altd.jpg");
+}
+
+.insta4 {
+    background-image: url("../assets/gridimg/imge.png");
+}
+
+.insta4:hover {
+    background-image: url("../assets/gridimg/alte.png");
+}
+
+.insta5 {
+    background-image: url("../assets/gridimg/imgf.jpg");
+}
+
+.insta5:hover {
+    background-image: url("../assets/gridimg/altf.jpg");
+}
+
+.insta6 {
+    background-image: url("../assets/gridimg/imgg.png");
+}
+
+.insta6:hover {
+    background-image: url("../assets/gridimg/alte.png");
+}
+
+/* .insta7 {
+    background-image: url("../assets/gridimg/imgb.png");
+}
+
+.insta7:hover {
+    background-image: url("../assets/gridimg/altb.jpg");
+} */

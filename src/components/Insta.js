@@ -86,10 +86,8 @@ export default function Insta() {
     ]
     const alts = [Alt1, Alt2, Alt3, Alt4, Alt5, Alt6, Alt5] 
     const [items, setItems] = useState(startImgs)
-    const [swirl, setSwirl] = useState(LoremA);
 
     const handleClick = (i) => {
-        console.log("OLD", items[i])
         const currItem = {...items[i]["style"]}
         
         if (currItem["opacity"] == "0") {
@@ -97,10 +95,10 @@ export default function Insta() {
         } else {
             currItem["opacity"] = "0"
         }
-        
-        const newItems = [...items, items[i]["style"] = currItem]
+        items[i]["style"] = currItem
+
+        const newItems = [...items]
         setItems(newItems)
-        console.log(items[i])
     }
 
     return(
@@ -112,10 +110,10 @@ export default function Insta() {
                         <Grid container columns={{ xs: 4, lg: 6}}>
                             {items.map((_, index) => (
                             <Grid item xs={2} key={index} className="insta-pics">
-                                <div className="testInsta"
+                                <div className={"ipad-imgs insta" + index}
                                 style={items[index].style} 
                                 onClick={() => {handleClick(index)}}
-                                onMouseEnter={() => (console.log("curr", items[index].style))}
+                                // onMouseEnter={() => (console.log("curr", items[index].style))}
                                 >
                                     
                                     
