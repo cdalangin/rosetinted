@@ -12,12 +12,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90vw;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-.in-ipad {
+.in-ipad, .off-ipad, .ipad-button {
     display: none;
 }
 
@@ -35,6 +36,24 @@
         overflow: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none; 
+    }
+
+    .off-ipad {
+        display: flex;
+        position: absolute;
+        content: "herrow";
+        height: 44vw;
+        width: 60vw;
+        background-color: #F7E8E8;
+    }
+
+    .ipad-button {
+        display: block;
+        height: 4.5vw;
+        top: 46.5vh;
+        right: 13.5%;
+        position: absolute;
+
     }
 }
 
@@ -85,12 +104,12 @@
   }
 
 .insta0 {
-    background-image: url("../assets/gridimg/imgb.png");
+    background-image: url("../assets/gridimg/imga.png");
 }
 
-.insta0:hover {
+/* .insta0:hover {
     background-image: url("../assets/gridimg/alta.jpg");
-}
+} */
 
 .insta1 {
     background-image: url("../assets/gridimg/imgb.png");
@@ -104,9 +123,9 @@
     background-image: url("../assets/gridimg/imgc.png");
 }
 
-.insta2:hover {
+/* .insta2:hover {
     background-image: url("../assets/gridimg/altc.jpg");
-}
+} */
 
 .insta3 {
     background-image: url("../assets/gridimg/imgd.png");
@@ -120,9 +139,9 @@
     background-image: url("../assets/gridimg/imge.png");
 }
 
-.insta4:hover {
+/* .insta4:hover {
     background-image: url("../assets/gridimg/alte.png");
-}
+} */
 
 .insta5 {
     background-image: url("../assets/gridimg/imgf.jpg");
@@ -136,47 +155,47 @@
     background-image: url("../assets/gridimg/imgg.png");
 }
 
-.insta6:hover {
-    background-image: url("../assets/gridimg/alte.png");
-}
+/* .insta6:hover {
+    background-image: url("../assets/gridimg/altf.png");
+} */
 
 .insta7 {
-    background-image: url("../assets/gridimg/imgb.png");
+    background-image: url("../assets/gridimg/imgh.png");
 }
 
-.insta7:hover {
+/* .insta7:hover {
     background-image: url("../assets/gridimg/altb.jpg");
-}
+} */
 
 .insta8 {
-    background-image: url("../assets/gridimg/imgb.png");
+    background-image: url("../assets/gridimg/imgi.png");
 }
 
 .insta8:hover {
-    background-image: url("../assets/gridimg/altb.jpg");
+    background-image: url("../assets/gridimg/alti.jpg");
 }
 
 .insta9 {
-    background-image: url("../assets/gridimg/imgg.png");
+    background-image: url("../assets/gridimg/imgj.png");
 }
 
-.insta9:hover {
-    background-image: url("../assets/gridimg/alte.png");
-}
+/* .insta9:hover {
+    background-image: url("../assets/gridimg/altj.jpg");
+} */
 
 .insta10 {
-    background-image: url("../assets/gridimg/imgb.png");
+    background-image: url("../assets/gridimg/imgk.png");
 }
 
-.insta10:hover {
+/* .insta10:hover {
     background-image: url("../assets/gridimg/altb.jpg");
-}
+} */
 
 .insta11 {
-    background-image: url("../assets/gridimg/imgb.png");
+    background-image: url("../assets/gridimg/imgl.jpg");
 }
 
 .insta11:hover {
-    background-image: url("../assets/gridimg/altb.jpg");
+    background-image: url("../assets/gridimg/altl.jpg");
 }
 
