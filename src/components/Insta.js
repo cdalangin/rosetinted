@@ -28,62 +28,122 @@ export default function Insta() {
     const startImgs = [
         {
             name: "Name",
-            asset: Img1,
+            // asset: Img1,
             style: {
                 opacity: "1", 
                 // backgroundImage: `url(${Img2})`,
-            }
+            },
+            "quote": "Bla bla bla"
         },
         {
             name: "Name",
-            asset: Img2,
+            // asset: Img2,
             style: {
                 opacity: "1", 
                 // backgroundImage: `url(${Img2})`,
-            }
+            },
+            "quote": "Bla bla bla"
         },
         {
             name: "Name",
-            asset: Img3,
+            // asset: Img3,
             style: {
                 "opacity": "1", 
                 // backgroundImage: `url(${Img3})`,
-            }
+            },
+            "quote": "Bla bla bla"
         },
         {
             "name": "Name",
-            "asset": Img4,
+            // "asset": Img4,
             "style": {
                 "opacity": "1", 
                 // backgroundImage: `url(${Img4})`,
-            }
+            },
+            "quote": "Bla bla bla"
         },
         {
             "name": "Name",
-            "asset": Img5,
+            // "asset": Img5,
             "style": {
                 "opacity": "1", 
                 // backgroundImage: `url(${Img5})`,
-            }
+            },
+            "quote": "Bla bla bla"
         },
         {
             "name": "Name",
-            "asset": Img6,
+            // "asset": Img6,
             "style": {
                 "opacity": "1", 
                 // backgroundImage: `url(${Img6})`,
-            }
+            },
+            "quote": "Bla bla bla"
         },
         {
             "name": "Name",
-            "asset": Img7,
+            // "asset": Img7,
             "style": {
                 "opacity": "1", 
                 // backgroundImage: `url(${Img7})`,
                 // transition: "0.5s",
-            }
+            },
+            "quote": "Bla bla bla"
+        },
+        {
+            "name": "Name",
+            // "asset": Img7,
+            "style": {
+                "opacity": "1", 
+                // backgroundImage: `url(${Img7})`,
+                // transition: "0.5s",
+            },
+            "quote": "Bla bla bla"
+        },
+        {
+            "name": "Name",
+            // "asset": Img7,
+            "style": {
+                "opacity": "1", 
+                // backgroundImage: `url(${Img7})`,
+                // transition: "0.5s",
+            },
+            "quote": "Bla bla bla"
+        },
+        {
+            "name": "Name",
+            // "asset": Img7,
+            "style": {
+                "opacity": "1", 
+                // backgroundImage: `url(${Img7})`,
+                // transition: "0.5s",
+            },
+            "quote": "Bla bla bla"
+        },
+        {
+            "name": "Name",
+            // "asset": Img7,
+            "style": {
+                "opacity": "1", 
+                // backgroundImage: `url(${Img7})`,
+                // transition: "0.5s",
+            },
+            "quote": "Bla bla bla"
+
+        },
+        {
+            "name": "Name",
+            // "asset": Img7,
+            "style": {
+                "opacity": "1", 
+                // backgroundImage: `url(${Img7})`,
+                // transition: "0.5s",
+            },
+            "quote": "Bla bla bla"
         },
     ]
+
+    const quotes = ["Herrow", "Herrow", "Herrow", "Herrow", "Herrow", "Herrow", "Herrow", "Herrow", "Herrow", "Herrow", "Herrow", "Herrow"]
     const alts = [Alt1, Alt2, Alt3, Alt4, Alt5, Alt6, Alt5] 
     const [items, setItems] = useState(startImgs)
 
@@ -106,28 +166,30 @@ export default function Insta() {
             <h1 className="insta-title">Grid Page</h1>
             <div className="ipad">
                 <div className="in-ipad">
-                    <Box sx={{ flexGrow: 1 }}>
-                        <Grid container columns={{ xs: 4, lg: 6}}>
-                            {items.map((_, index) => (
-                            <Grid item xs={2} key={index} className="insta-pics">
-                                <div className={"ipad-imgs insta" + index}
-                                style={items[index].style} 
-                                onClick={() => {handleClick(index)}}
-                                // onMouseEnter={() => (console.log("curr", items[index].style))}
-                                >
-                                    
-                                    
-                                {/* <img src={LoremA} alt="images" width="100%" 
-                                    
-                                    onMouseEnter={(e) => e.currentTarget.src = alts[index]}
-                                    onMouseLeave={(e) => e.currentTarget.src = LoremA}
-                                /> */}
-                                </div>
-
-                                {/* <div width="100%" height="100%" className={"testInsta" + index}></div> */}
+                    <Box sx={{ flexGrow: 1 }} className="ipad-box">
+                        
+                        <Grid container columns={{ xs: 4, lg: 6}} className="quote-grid">
+                            {quotes.map((_, index) => (
+                            <Grid item xs={2} key={index} className="ipad-quote">
+                                <p className="quote-text">
+                                    {quotes[index]}
+                                </p>
+                                
                             </Grid>
                             ))}
                         </Grid>
+
+                        <Grid container columns={{ xs: 4, lg: 6}}>
+                            {items.map((_, index) => (
+                            <Grid item xs={2} key={index} >
+                                <div className={"ipad-imgs insta" + index}
+                                style={items[index].style} 
+                                onClick={() => {handleClick(index)}} ></div>
+                            </Grid>
+                            ))}
+                        </Grid>
+
+                        
                     </Box>
                 </div>
             </div>

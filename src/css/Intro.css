@@ -1,7 +1,16 @@
+@font-face {
+    font-family: "LemonTea";
+    src: url("../assets/fonts/LemonTea.ttf") format("truetype");
+} 
+
 .intro-sect {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.insta-tooltip {
+    font-family: "LemonTea";
 }

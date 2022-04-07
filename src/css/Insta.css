@@ -43,10 +43,30 @@
     display: none;
   }
 
-.insta-pics {
+
+.ipad-box {
+    position: relative;
+}
+
+.quote-grid {
+    position: absolute;
+    top: 0;
+    
+}
+
+.ipad-quote {
+    position: relative;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    background-color: aquamarine;
+    transition: 0.5s;
+    background-color: #ffe4c4;
+    margin: 0;
+}
+
+.quote-text {
+    color: red;
+    font-size: 20px
+    
 }
 
 .ipad-imgs {
@@ -58,11 +78,10 @@
     transition: 0.5s;
 }
 
-.ipad-imgs:after {
+.ipad-quote:after, .ipad-imgs:after {
     content: "";
     display: block;
     padding-bottom: 100%;
-    z-index: -100;
   }
 
 .insta0 {
@@ -121,10 +140,43 @@
     background-image: url("../assets/gridimg/alte.png");
 }
 
-/* .insta7 {
+.insta7 {
     background-image: url("../assets/gridimg/imgb.png");
 }
 
 .insta7:hover {
     background-image: url("../assets/gridimg/altb.jpg");
-} */
+}
+
+.insta8 {
+    background-image: url("../assets/gridimg/imgb.png");
+}
+
+.insta8:hover {
+    background-image: url("../assets/gridimg/altb.jpg");
+}
+
+.insta9 {
+    background-image: url("../assets/gridimg/imgg.png");
+}
+
+.insta9:hover {
+    background-image: url("../assets/gridimg/alte.png");
+}
+
+.insta10 {
+    background-image: url("../assets/gridimg/imgb.png");
+}
+
+.insta10:hover {
+    background-image: url("../assets/gridimg/altb.jpg");
+}
+
+.insta11 {
+    background-image: url("../assets/gridimg/imgb.png");
+}
+
+.insta11:hover {
+    background-image: url("../assets/gridimg/altb.jpg");
+}
+
