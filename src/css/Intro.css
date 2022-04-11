@@ -3,6 +3,21 @@
     src: url("../assets/fonts/LemonTea.ttf") format("truetype");
 } 
 
+@font-face {
+    font-family: "CutieFont";
+    src: url("../assets/fonts/CutieFont2.ttf") format("truetype");
+} 
+
+@font-face {
+    font-family: "Diamond";
+    src: url("../assets/fonts/Diamond.ttf") format("truetype");
+} 
+
+a, p {
+    font-family: "Diamond";
+    font-size: 5.5vh;
+}
+
 #intro {
     background-color: #fbeef5;
     background-image: url("../assets/whitegrid.png");
@@ -17,6 +32,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 5vw;
+    color: #9680A8;
 }
 
 .insta-tooltip {

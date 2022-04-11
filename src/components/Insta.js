@@ -18,7 +18,7 @@ export default function Insta() {
             style: {
                 opacity: "1", 
             },
-            "quote": "Bla bla bla",
+            "quote": "Do I need plastic surgery to be as pretty as her?",
             "bad": false
         },
         {
@@ -42,7 +42,7 @@ export default function Insta() {
             "style": {
                 "opacity": "1", 
             },
-            "quote": "Bla bla bla",
+            "quote": "“Why isn't my relationship as perfect as theirs?”",
             "bad": true
         },
         {
@@ -58,7 +58,7 @@ export default function Insta() {
             "style": {
                 "opacity": "1", 
             },
-            "quote": "“People have always wanted to present the best version of themselves to others. It’s just that on social media people often present a very enhanced, unrealistic version of their appearance.”",
+            "quote": "People have always wanted to present the best version of themselves to others. It’s just that on social media people often present a very enhanced, unrealistic version of their appearance.",
             "bad": true
         },
         {
@@ -90,8 +90,8 @@ export default function Insta() {
             "style": {
                 "opacity": "1", 
             },
-            "quote": "Bla bla bla",
-            "bad": false
+            "quote": "“I must be doing something wrong with my life”",
+            "bad": true
         },
         {
             "name": "Graduate",
@@ -142,7 +142,6 @@ export default function Insta() {
             ipadClicks += 1;
             setHasCta(false)
         }
-        // setHasCta(false)
 
     }
 

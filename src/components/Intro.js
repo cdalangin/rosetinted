@@ -18,19 +18,22 @@ export default function Intro() {
     return(
         <>
         <div id="intro" className="intro-sect">
-            <h1>What are you romanticizing?</h1>
-            <p>Instagram is a popular app full of pretty pictures and___ to help you destress, connect, and be informed</p>
-            <p>72% of 12-17 year olds use Instagram</p>
-            <p>71% of 18-24 year olds use Instagram</p>
-            <p>But what if these pretty pictures also __?</p>
-            {/* <h2>got some free time? scroll through 
+            <div className="intro-text">
+                {/* <h1>What are you romanticizing?</h1> */}
+                <p>You scroll through Instagram to destress, connect, and stay informed</p>
+                <p>72% of 12-17 year olds use Instagram</p>
+                <p>71% of 18-24 year olds use Instagram</p>
+                <p>But is it doing any favors to your mental health?</p>
+            </div>
+                {/* <h2>got some free time? scroll through 
 
-                <span> instagram</span>
-            </h2> */}
-            {/* <p>inst</p> */}
-            <HashLink smooth to="/rosetinted/#insta" onClick={showInsta} >
-                <img src={Proceed} alt="proceed button" height="50vh" />
-            </HashLink>
+                    <span> instagram</span>
+                </h2> */}
+                {/* <p>inst</p> */}
+                <HashLink smooth to="/rosetinted/#insta" onClick={showInsta} >
+                    <img src={Proceed} alt="proceed button" height="50vh" />
+                </HashLink>
+            
         </div>
         </>
 
