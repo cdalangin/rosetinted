@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rosetinted/static/css/main.44a94cc0.css",
-    "main.js": "/rosetinted/static/js/main.217c6e78.js",
+    "main.css": "/rosetinted/static/css/main.f51a3222.css",
+    "main.js": "/rosetinted/static/js/main.675699f4.js",
     "static/js/787.1ef55504.chunk.js": "/rosetinted/static/js/787.1ef55504.chunk.js",
     "static/media/imgd.png": "/rosetinted/static/media/imgd.8dbf8f116dadcaddb439.png",
     "static/media/imgi.png": "/rosetinted/static/media/imgi.e831dfec279ca962b8bb.png",
@@ -21,6 +21,7 @@
     "static/media/LemonTea.ttf": "/rosetinted/static/media/LemonTea.56170a6f7d84bcd02cd1.ttf",
     "static/media/imge.png": "/rosetinted/static/media/imge.061017649dea7cf76c7d.png",
     "static/media/altf.jpg": "/rosetinted/static/media/altf.0f280639380e560cc12e.jpg",
+    "static/media/Diamond.ttf": "/rosetinted/static/media/Diamond.b4917e04028ecddc1e4e.ttf",
     "static/media/imgc.png": "/rosetinted/static/media/imgc.2541054ce82bb0e24042.png",
     "static/media/imgk.png": "/rosetinted/static/media/imgk.94c16e04ba915fb9e14f.png",
     "static/media/set-foot.png": "/rosetinted/static/media/set-foot.f5a27b05a6e34fe91ec6.png",
@@ -28,18 +29,19 @@
     "static/media/imgl.jpg": "/rosetinted/static/media/imgl.7b85ef621bd197f1b238.jpg",
     "static/media/set-base.png": "/rosetinted/static/media/set-base.39ab4f36f78beabb2f6b.png",
     "static/media/alti.jpg": "/rosetinted/static/media/alti.1f8af7469457996974bf.jpg",
+    "static/media/CutieFont2.ttf": "/rosetinted/static/media/CutieFont2.266be4324a6f58d7604e.ttf",
     "static/media/altd.jpg": "/rosetinted/static/media/altd.dd4693378397cb1b7919.jpg",
     "static/media/getstarted.png": "/rosetinted/static/media/getstarted.e82cdeb51f38e1ed1ebf.png",
     "static/media/goback.png": "/rosetinted/static/media/goback.3e2788dd55175df9cd1b.png",
     "static/media/proceed.png": "/rosetinted/static/media/proceed.1914ee2c02dc799a47b7.png",
     "static/media/push.png": "/rosetinted/static/media/push.cdb8cce368ef3eb3d046.png",
     "index.html": "/rosetinted/index.html",
-    "main.44a94cc0.css.map": "/rosetinted/static/css/main.44a94cc0.css.map",
-    "main.217c6e78.js.map": "/rosetinted/static/js/main.217c6e78.js.map",
+    "main.f51a3222.css.map": "/rosetinted/static/css/main.f51a3222.css.map",
+    "main.675699f4.js.map": "/rosetinted/static/js/main.675699f4.js.map",
     "787.1ef55504.chunk.js.map": "/rosetinted/static/js/787.1ef55504.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44a94cc0.css",
-    "static/js/main.217c6e78.js"
+    "static/css/main.f51a3222.css",
+    "static/js/main.675699f4.js"
   ]
 }
