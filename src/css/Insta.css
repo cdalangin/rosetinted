@@ -1,3 +1,11 @@
+#insta {
+    background-color: #fbeef5;
+    background-image: url("../assets/whitegrid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .insta-sec {
     height: 100vh;
 }
@@ -18,24 +26,32 @@
     align-items: center;
     position: relative;
 }
-.in-ipad, .off-ipad, .ipad-button {
+.in-ipad, .off-ipad, .ipad-button, .ipad-cta {
     display: none;
 }
 
 @media screen and (min-width: 1000px) {
     .ipad {
-        background-image: url("../assets/ipad.png");
-        /* background-size: 80vw; */
+        background-image: url("../assets/ipad2.png");
+        background-size: 74vw;
         min-height: 100vh;
     }
     .in-ipad {
         display: flex;
         height: 44vw;
         width: 60vw;
-        background-color: aqua;
+        /* background-color: aqua; */
         overflow: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none; 
+    }
+
+    .insta-header {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: white;
     }
 
     .off-ipad {
@@ -45,6 +61,21 @@
         height: 44vw;
         width: 60vw;
         background-color: #F7E8E8;
+    }
+
+    .ipad-cta {
+        position: absolute;
+        top: 40vh;
+        right: 5.5%;
+        height: 6vw;
+    }
+
+    .cta1 {
+        display: block;
+    }
+
+    .cta2 {
+        display: none;
     }
 
     .ipad-button {
@@ -65,6 +96,7 @@
 
 .ipad-box {
     position: relative;
+    display: flex;
 }
 
 .quote-grid {
@@ -77,15 +109,18 @@
     position: relative;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     transition: 0.5s;
-    background-color: #ffe4c4;
+    background-color: #F7E8E8;
     margin: 0;
 }
 
 .quote-text {
-    color: red;
-    font-size: 20px
-    
+    color: #E59392;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 10px;
 }
 
 .ipad-imgs {
@@ -173,6 +208,7 @@
 
 .insta8:hover {
     background-image: url("../assets/gridimg/alti.jpg");
+    transition: 0.3s;
 }
 
 .insta9 {

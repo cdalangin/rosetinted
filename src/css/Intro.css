@@ -3,6 +3,14 @@
     src: url("../assets/fonts/LemonTea.ttf") format("truetype");
 } 
 
+#intro {
+    background-color: #fbeef5;
+    background-image: url("../assets/whitegrid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .intro-sect {
     height: 100vh;
     display: flex;

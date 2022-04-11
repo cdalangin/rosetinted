@@ -33,6 +33,12 @@ export default function Settings() {
                         <a href="https://www.flaticon.com/free-icons/heart" title="heart icons" className="creds">Heart icons created by smalllikeart - Flaticon</a>
                     </div>
 
+                    <h3 className="abt-titles">References</h3>
+                    <div>
+                        <p>[1] <a href="https://www.washingtonpost.com/lifestyle/2021/09/17/instagram-teens-parent-advice/">Instagram is even worse than we thought for kids. What do we do about it?</a></p>
+                        <p>[2] <a href="https://www.gse.harvard.edu/news/uk/17/12/social-media-and-teen-anxiety">Social Media and Teen Anxiety</a></p>
+                    </div>
+
                     <Link to="/rosetinted" className="back-btn">
                         <img src={Back} alt="back button" className="bb" />
                     </Link>
