@@ -9,13 +9,13 @@
 } 
 
 @font-face {
-    font-family: "Diamond";
-    src: url("../assets/fonts/Diamond.ttf") format("truetype");
+    font-family: "Butterbean";
+    src: url("../assets/fonts/Butterbean.ttf") format("truetype");
 } 
 
 a, p {
-    font-family: "Diamond";
-    font-size: 5.5vh;
+    font-family: "Butterbean";
+    font-size: 3.5vh;
 }
 
 #intro {
@@ -40,7 +40,7 @@ a, p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 5vw;
+    margin: 0 4.5vw;
     color: #9680A8;
 }
 

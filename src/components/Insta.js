@@ -9,6 +9,11 @@ import IpadButton from "../assets/ipadbutton.png"
 import LoremA from '../assets/gridimg/lorem.png'
 import LoremB from '../assets/gridimg/lorem2.png'
 
+import Search from "../assets/gridimg/search.png"
+import TagA from "../assets/gridimg/taga.png"
+import TagB from "../assets/gridimg/tagb.png"
+import TagC from "../assets/gridimg/tagc.png"
+
 // ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹
 
 export default function Insta() {
@@ -111,6 +116,8 @@ export default function Insta() {
             "bad": true
         },
     ]
+
+    const tags = [TagA, TagB, TagC]
     
     const [items, setItems] = useState(startImgs)
     const [isOn, setIsOn] = useState(false);
@@ -150,9 +157,17 @@ export default function Insta() {
             {/* <h1 className="insta-title">Grid Page</h1> */}
             <div className="ipad">
                 <div className="in-ipad">
-                    {/* <div className="insta-header"></div> */}
+                    <div className="insta-header">
+                        <img src={Search} alt="search bar" className="insta-search" />
+                        <div className='insta-tags'>
+                            {tags.map(tag => (
+                                <img src={tag} alt="insta tags" className="insta-tag"/>
+                            ))}
+                        </div>
+
+                    </div>
                     <Box sx={{ flexGrow: 1 }} className="ipad-box">
-                        <Grid container columns={{ xs: 4, lg: 6}} className="quote-grid">
+                        <Grid container columns={{ xs: 6}} className="quote-grid" spacing={1}>
                             {items.map((_, index) => (
                             <Grid item xs={2} key={index} className="ipad-quote">
                                 <p className="quote-text">
@@ -163,7 +178,7 @@ export default function Insta() {
                             ))}
                         </Grid>
 
-                        <Grid container columns={{ xs: 4, lg: 6}}>
+                        <Grid container columns={{ xs: 6}} spacing={1}>
                             {items.map((_, index) => (
                             <Grid item xs={2} key={index} >
                                 <div className={"ipad-imgs insta" + index}
