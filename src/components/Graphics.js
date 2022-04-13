@@ -1,11 +1,12 @@
 import React from 'react';
+import '../css/Graphics.css'
 
 export default function Graphics() {
 
     return(
-        <>
-            <h1>Graphics Page</h1>
-        </>
+        <div id="graphics">
+            <h3>GRAPHICS!!! :D</h3>
+        </div>
 
     )
 }

@@ -1,0 +1,12 @@
+#graphics {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbeef5;
+    background-image: url("../assets/whitegrid.png");
+    background-repeat: repeat-y;
+    background-size: 100vw;
+    background-position: center;
+    overflow: hidden;
+}

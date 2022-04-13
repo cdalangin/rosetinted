@@ -1,13 +1,16 @@
 import React, {useState, useContext} from 'react';
-import {StateContext} from "../pages/MainPage"
+import {StateContext} from "../components/StateContext"
+import { useNavigate } from 'react-router';
+import { HashLink } from 'react-router-hash-link';
 import "../css/Insta.css"
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
 import Push from "../assets/push.png"
+import Proceed from "../assets/bubbleproceed.png"
 import IpadButton from "../assets/ipadbutton.png"
-import LoremA from '../assets/gridimg/lorem.png'
-import LoremB from '../assets/gridimg/lorem2.png'
+// import LoremA from '../assets/gridimg/lorem.png'
+// import LoremB from '../assets/gridimg/lorem2.png'
 
 import Search from "../assets/gridimg/search.png"
 import TagA from "../assets/gridimg/taga.png"
@@ -17,6 +20,9 @@ import TagC from "../assets/gridimg/tagc.png"
 // ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹
 
 export default function Insta() {
+    let navigate = useNavigate()
+    const {showState, toggleStates} = useContext(StateContext)
+    
     const startImgs = [
         {
             name: "Bella",
@@ -145,16 +151,23 @@ export default function Insta() {
         setIsOn(!isOn);
         
 
-        if (ipadClicks === 0) {
-            ipadClicks += 1;
-            setHasCta(false)
-        }
+        // if (ipadClicks === 0) {
+        //     ipadClicks += 1;
+        //     setHasCta(false)
+        // }
 
+        setHasCta(!hasCta)
+    }
+
+    const showGraphics = () => {
+        const data = [...showState]
+        data[2] = true
+
+        toggleStates(data)
     }
 
     return(
         <div id="insta" className="insta-sec">
-            {/* <h1 className="insta-title">Grid Page</h1> */}
             <div className="ipad">
                 <div className="in-ipad">
                     <div className="insta-header">
@@ -191,10 +204,18 @@ export default function Insta() {
                 </div>
 
                 <div className={isOn ? null : "off-ipad"}></div>
-                <img src={Push} alt="cta" className={hasCta ? "ipad-cta cta1" : "ipad-cta cta2"}/>
+                <img src={hasCta ? Push : Proceed} alt="cta" className="ipad-cta"/> 
+                {/* {hasCta ? "ipad-cta cta1" : "ipad-cta cta2"} */}
 
                 <div className="" onClick={() => {onIpad()}}>
-                    <img src={IpadButton} alt="ipad button" className="ipad-button"/>
+                    {hasCta ? <img src={IpadButton} alt="ipad button" className="ipad-button"/>
+                    :
+                    <HashLink smooth to="/rosetinted/#graphics" onClick={showGraphics}>
+                        <img src={IpadButton} alt="ipad button" className="ipad-button"/>
+                    </HashLink>
+
+                    }
+                    
                 </div>
             </div>
         </div>

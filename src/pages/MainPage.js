@@ -1,8 +1,9 @@
-import React, {useState, createContext}  from 'react';
+import React, {useState}  from 'react';
 import {StateContext} from "../components/StateContext"
 import Landing from "../components/Landing";
-import Insta from "../components/Insta"
-import Intro from "../components/Intro"
+import Insta from "../components/Insta";
+import Intro from "../components/Intro";
+import Graphics from '../components/Graphics';
 
 export default function MainPage() {
     const [showState, toggleStates] = useState([false, false]);
@@ -14,6 +15,7 @@ export default function MainPage() {
             <Landing />
             {showState[0] && <Intro/>}
             {showState[1] && <Insta/>}
+            {showState[2] && <Graphics/>}
         </StateContext.Provider>
         </>
     )

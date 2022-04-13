@@ -6,8 +6,8 @@
 .about-page {
     background-color: #fbeef5;
     background-image: url("../assets/whitegrid.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: 100vw;
     background-position: center;
 }
 
@@ -36,6 +36,7 @@
 
 .abt-titles {
     font-family: "LemonTea";
+    font-size: 3vh;
     color: #9680a8;
 }
 
@@ -51,10 +52,17 @@
     flex-direction: column;
 }
 
+.abt-p, .creds {
+    font-family: "Butterbean";
+    font-size: 2.5vh;
+    color: #cc6e6c;
+}
+
 .creds {
     text-decoration: none;
-    color: black;
+    color: #E59392;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .back-btn {

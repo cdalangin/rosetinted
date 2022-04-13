@@ -13,9 +13,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/rosetinted" element={<MainPage />} />
         <Route path="/rosetinted/about" element={<About />} />
         <Route path="/rosetinted/settings" element={<Settings />} />
+        <Route path="/rosetinted" element={<MainPage />} />
       </Routes>
     </BrowserRouter>
   );
