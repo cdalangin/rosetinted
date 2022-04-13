@@ -5,8 +5,8 @@
     justify-content: center;
     background-color: #fbeef5;
     background-image: url("../assets/whitegrid.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: 100vw;
     background-position: center;
 }
 

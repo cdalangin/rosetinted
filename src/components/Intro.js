@@ -1,12 +1,41 @@
 import React, {useContext} from 'react';
 import {StateContext} from "../components/StateContext"
+import Anime, { anime } from 'react-anime';
 
 import { HashLink } from 'react-router-hash-link';
 import "../css/Intro.css"
-import Proceed from "../assets/buttons/proceed.png"
+import Proceed from "../assets/buttons/pinkpro.png"
+
+import Txt1 from "../assets/intro/txt1.png"
+import Txt2 from "../assets/intro/txt2.png"
+import Txt3 from "../assets/intro/txt3.png"
+import Stats from "../assets/intro/stats.png"
 
 export default function Intro() {
     const {showState, toggleStates} = useContext(StateContext)
+
+    const texts = [ 
+        {
+            "name": "scroll",
+            "duration": 2000,
+            "img": Txt1
+        },
+        {
+            "name": "stats",
+            "duration": 1000,
+            "img": Stats
+        },
+        {
+            "name": "favors",
+            "duration": 1000,
+            "img": Txt2
+        },
+        {
+            "name": "click",
+            "duration": 2000,
+            "img": Txt3
+        }
+    ]
 
     const showInsta = () => {
         const data = [...showState]
@@ -19,20 +48,19 @@ export default function Intro() {
         <>
         <div id="intro" className="intro-sect">
             <div className="intro-text">
-                {/* <h1>What are you romanticizing?</h1> */}
-                <p>You scroll through Instagram to destress, connect, and stay informed</p>
-                <p>72% of 12-17 year olds use Instagram</p>
-                <p>71% of 18-24 year olds use Instagram</p>
-                <p>But is it doing any favors to your mental health?</p>
-            </div>
-                {/* <h2>got some free time? scroll through 
+                <Anime opacity={[0, 1]} translateY={'1em'} delay={(e, i) => i * 2000}>
 
-                    <span> instagram</span>
-                </h2> */}
-                {/* <p>inst</p> */}
-                <HashLink smooth to="/rosetinted/#insta" onClick={showInsta} >
-                    <img src={Proceed} alt="proceed button" height="50vh" />
+                    {texts.map(text => (
+                        <img src={text.img} alt={text.name} className="intro-graphics"/>
+                    ))}
+
+                </Anime>
+
+                <HashLink smooth to="/rosetinted/#insta" onClick={showInsta} className="intro-link">
+                    <img src={Proceed} alt="proceed button" className="intro-button"/>
                 </HashLink>
+            </div>
+            
             
         </div>
         </>
