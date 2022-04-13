@@ -1,8 +1,8 @@
 #insta {
     background-color: #fbeef5;
     background-image: url("../assets/whitegrid.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: 100vw;
     background-position: center;
 }
 
@@ -38,20 +38,14 @@
     }
     .in-ipad {
         display: flex;
+        position: relative;
         height: 44vw;
-        width: 60vw;
+        width: 61.5vw;
+        margin-right: 1vw;
         /* background-color: aqua; */
         overflow: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none; 
-    }
-
-    .insta-header {
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: 50px;
-        background-color: white;
     }
 
     .off-ipad {
@@ -59,7 +53,8 @@
         position: absolute;
         content: "herrow";
         height: 44vw;
-        width: 60vw;
+        width: 61.5vw;
+        margin-right: 1vw;
         background-color: #F7E8E8;
     }
 
@@ -88,6 +83,35 @@
     }
 }
 
+.insta-header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 14vh;
+    /* background-color: white; */
+    /* z-index: 1000; */
+}
+
+.insta-search {
+    width: 98%;
+}
+
+.insta-tags {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.insta-tag {
+    width: 30%;
+}
+
 
 .in-ipad::-webkit-scrollbar {
     display: none;
@@ -96,6 +120,7 @@
 
 .ipad-box {
     position: relative;
+    top: 14vh;
     display: flex;
 }
 
@@ -118,7 +143,7 @@
 
 .quote-text {
     color: #E59392;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin: 0 10px;
 }

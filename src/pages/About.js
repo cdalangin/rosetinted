@@ -31,6 +31,8 @@ export default function Settings() {
                     <div className="all-creds">
                         <a href="https://www.flaticon.com/free-icons/leaf" title="leaf icons" className="creds">Leaf icons created by Good Ware - Flaticon</a>
                         <a href="https://www.flaticon.com/free-icons/heart" title="heart icons" className="creds">Heart icons created by smalllikeart - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Taufik - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/speech-bubble" title="speech bubble icons">Speech bubble icons created by Alfredo Hernandez - Flaticon</a>
                     </div>
 
                     <h3 className="abt-titles">References</h3>
