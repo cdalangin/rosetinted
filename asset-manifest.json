@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rosetinted/static/css/main.a4bb5c72.css",
-    "main.js": "/rosetinted/static/js/main.e333a7d8.js",
+    "main.css": "/rosetinted/static/css/main.1ec661c5.css",
+    "main.js": "/rosetinted/static/js/main.13d3f41f.js",
     "static/js/787.1ef55504.chunk.js": "/rosetinted/static/js/787.1ef55504.chunk.js",
     "static/media/imgo.png": "/rosetinted/static/media/imgo.3187a24747d9fb5ff795.png",
     "static/media/imgd.png": "/rosetinted/static/media/imgd.8dbf8f116dadcaddb439.png",
@@ -24,7 +24,6 @@
     "static/media/abt-head.png": "/rosetinted/static/media/abt-head.7aeecba64660d8ebdd3d.png",
     "static/media/imgn.png": "/rosetinted/static/media/imgn.676b226dfb787598b9a2.png",
     "static/media/set-head.png": "/rosetinted/static/media/set-head.37a07d21fa97bf44170a.png",
-    "static/media/exactly.png": "/rosetinted/static/media/exactly.a0623c1f95a4c477a782.png",
     "static/media/body.png": "/rosetinted/static/media/body.81160e5d3bf153447144.png",
     "static/media/imgj.png": "/rosetinted/static/media/imgj.070deb014679ac1bc98d.png",
     "static/media/imgg.png": "/rosetinted/static/media/imgg.a9dfd72d2cc0a1e1cff2.png",
@@ -49,18 +48,19 @@
     "static/media/CutieFont2.ttf": "/rosetinted/static/media/CutieFont2.266be4324a6f58d7604e.ttf",
     "static/media/altd.jpg": "/rosetinted/static/media/altd.dd4693378397cb1b7919.jpg",
     "static/media/getstarted.png": "/rosetinted/static/media/getstarted.e82cdeb51f38e1ed1ebf.png",
+    "static/media/startover.png": "/rosetinted/static/media/startover.f3f2f914d48696faab78.png",
     "static/media/search.png": "/rosetinted/static/media/search.4ebec725b898ccfec826.png",
     "static/media/bubbleproceed.png": "/rosetinted/static/media/bubbleproceed.f4c40800d85c5305704c.png",
     "static/media/goback.png": "/rosetinted/static/media/goback.3e2788dd55175df9cd1b.png",
     "static/media/pinkpro.png": "/rosetinted/static/media/pinkpro.a410c1701447b99dd30c.png",
     "static/media/push.png": "/rosetinted/static/media/push.cdb8cce368ef3eb3d046.png",
     "index.html": "/rosetinted/index.html",
-    "main.a4bb5c72.css.map": "/rosetinted/static/css/main.a4bb5c72.css.map",
-    "main.e333a7d8.js.map": "/rosetinted/static/js/main.e333a7d8.js.map",
+    "main.1ec661c5.css.map": "/rosetinted/static/css/main.1ec661c5.css.map",
+    "main.13d3f41f.js.map": "/rosetinted/static/js/main.13d3f41f.js.map",
     "787.1ef55504.chunk.js.map": "/rosetinted/static/js/787.1ef55504.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4bb5c72.css",
-    "static/js/main.e333a7d8.js"
+    "static/css/main.1ec661c5.css",
+    "static/js/main.13d3f41f.js"
   ]
 }
