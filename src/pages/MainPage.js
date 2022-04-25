@@ -4,6 +4,7 @@ import Landing from "../components/Landing";
 import Insta from "../components/Insta";
 import Intro from "../components/Intro";
 import Graphics from '../components/Graphics';
+import Footer from '../components/Footer';
 
 export default function MainPage() {
     const [showState, toggleStates] = useState([false, false]);
@@ -15,7 +16,12 @@ export default function MainPage() {
             <Landing />
             {showState[0] && <Intro/>}
             {showState[1] && <Insta/>}
-            {showState[2] && <Graphics/>}
+            {showState[2] && 
+                <>
+                    <Graphics/>
+                    <Footer/>
+                </>
+            }
         </StateContext.Provider>
         </>
     )

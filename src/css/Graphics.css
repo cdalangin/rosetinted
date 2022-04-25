@@ -24,9 +24,11 @@
 
 .graphic-text {
     font-family: "Butterbean";
-    font-size: 4vh;
+    font-size: 4.7vh;
     color: #E59392;
     margin-bottom: 5vh;
+    align-self: center;
+    text-align: center;
 }
 
 .middle-grp {
@@ -38,6 +40,7 @@
 
 .middle-graphics {
     height: 40vh;
+    margin-bottom: -10vh;
 }
 
 .l {
@@ -48,6 +51,13 @@
     align-self: flex-end;
 }
 
+/* are all things to celebrate and be produ of */
+.grp1 {
+    width: 80vh;
+    margin-top: 10vh;
+    align-self: center;
+}
+
 .final-graphic {
     display: flex;
     flex-direction: column;
@@ -55,13 +65,11 @@
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
-.grp1 {
-    width: 80vh;
-}
 
+/* You're exactly where you need to be */
 .grp2 {
     width: 80vw;
 }

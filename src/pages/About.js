@@ -36,10 +36,12 @@ export default function Settings() {
 
                     <h3 className="abt-titles">Credits</h3>
                     <div className="all-creds">
+                        <p className="abt-p">Graphics</p>
                         <a href="https://www.flaticon.com/free-icons/leaf" title="leaf icons" className="creds">Leaf icons created by Good Ware - Flaticon</a>
                         <a href="https://www.flaticon.com/free-icons/heart" title="heart icons" className="creds">Heart icons created by smalllikeart - Flaticon</a>
                         <a href="https://www.flaticon.com/free-icons/search" title="search icons" className="creds">Search icons created by Taufik - Flaticon</a>
                         <a href="https://www.flaticon.com/free-icons/volunteer" title="volunteer icons" className="creds">Volunteer icons created by Freepik - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/confetti" title="confetti icons" className="creds">Confetti icons created by Smashicons - Flaticon</a>
                         <p className="abt-p">Instagram Posts</p>
                         <div className="all-insta">
                         {
@@ -54,6 +56,7 @@ export default function Settings() {
                     <div>
                         <p className="abt-p">[1] <a href="https://www.washingtonpost.com/lifestyle/2021/09/17/instagram-teens-parent-advice/" className="creds">Instagram is even worse than we thought for kids. What do we do about it?</a></p>
                         <p className="abt-p">[2] <a href="https://www.gse.harvard.edu/news/uk/17/12/social-media-and-teen-anxiety" className="creds">Social Media and Teen Anxiety</a></p>
+                        <p className="abt-p">[3] <a href="https://www.racked.com/2018/2/9/16993118/lil-pump-gucci-teens" className="creds">Lil Pump Loves Gucci, and His Teen Fans Are Buying In</a></p>
                     </div>
 
                     <h3 className="abt-titles">Technologies used</h3>

@@ -1,0 +1,17 @@
+#footer {
+    background-color: #EAC09B;
+    background-image: linear-gradient(#fbeef5, #A9ACD0);
+    background-size: 100vw;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    color: #9781A9;
+}
+
+.so-button {
+    height: 7vh;
+    cursor: pointer;
+}
