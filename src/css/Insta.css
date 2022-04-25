@@ -230,9 +230,9 @@
     background-image: url("../assets/gridimg/imgj.png");
 }
 
-/* .insta9:hover {
-    background-image: url("../assets/gridimg/altj.jpg");
-} */
+.insta9:hover {
+    background-image: url("../assets/gridimg/altj.png");
+}
 
 .insta10 {
     background-image: url("../assets/gridimg/imgk.png");
@@ -262,6 +262,10 @@
     background-image: url("../assets/gridimg/imgn.png");
 }
 
+.insta13:hover {
+    background-image: url("../assets/gridimg/altn.jpg");
+}
+
 .insta14 {
     background-image: url("../assets/gridimg/imgo.png");
 }
@@ -272,6 +276,10 @@
 
 .insta16 {
     background-image: url("../assets/gridimg/imgq.png");
+}
+
+.insta16:hover {
+    background-image: url("../assets/gridimg/altq.png");
 }
 
 .insta17 {

@@ -26,9 +26,6 @@ export default function Landing() {
                     <Link to="/rosetinted/about" className="land-but">
                         <img src={Info} alt="info" className="info-button" />
                     </Link>
-                    {/* <Link to="/rosetinted/settings" className="land-but">
-                        <img src={Settings} alt="settings" className="settings-button" />
-                    </Link> */}
                     <HashLink smooth to="/rosetinted/#intro" className="land-but"onClick={showInfo} >
                         <img src={Start} alt="get started" className="start-button" />
                     </HashLink>

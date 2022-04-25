@@ -6,7 +6,6 @@ import {  BrowserRouter,
 
 import MainPage from './pages/MainPage'
 import About from './pages/About.js'
-import Settings from './pages/Settings.js'
 
 function App() {
   
@@ -14,7 +13,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/rosetinted/about" element={<About />} />
-        <Route path="/rosetinted/settings" element={<Settings />} />
         <Route path="/rosetinted" element={<MainPage />} />
       </Routes>
     </BrowserRouter>

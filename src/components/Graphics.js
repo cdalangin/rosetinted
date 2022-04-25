@@ -14,17 +14,15 @@ export default function Graphics() {
     return(
         <div id="graphics">
             <div className="middle-grp">
-            <p className="graphic-text">don't let posts on instagram make you feel inferior.</p>
+                <p className="graphic-text">don't let posts on instagram make you feel inferior.</p>
                 <img src={Body} alt="your body" className="middle-graphics l hvr-hang"/>
                 <img src={Face} alt="your face" className="middle-graphics r hvr-hang"/>
                 <img src={Accomp} alt="your accomplishments" className="middle-graphics l hvr-hang"/>
                 <img src={Relation} alt="your relationships" className="middle-graphics r hvr-hang"/>
                 <img src={Proud} alt="are all things to celebrate and be proud of" className="grp1 hvr-hang"/>
             </div>
-            
-            <div className="final-graphic">
-                <img src={NeedToBe} alt="you're exactly where you need to be" className="grp2 hvr-hang"/>
-            </div>
+
+            <img src={NeedToBe} alt="you're exactly where you need to be" className="grp2 hvr-hang"/>
             
         </div>
 

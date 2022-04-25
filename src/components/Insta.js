@@ -134,8 +134,8 @@ export default function Insta() {
             "style": {
                 "opacity": "1", 
             },
-            "quote": "Bla bla bla",
-            "bad": false
+            "quote": "“Why isn't my boyfriend not treating me like this?”",
+            "bad": true
 
         },
         {
@@ -159,8 +159,8 @@ export default function Insta() {
             "style": {
                 "opacity": "1", 
             },
-            "quote": "Bla bla bla",
-            "bad": false
+            "quote": "Will my art ever be as good as theirs?",
+            "bad": true
 
         },
         {
