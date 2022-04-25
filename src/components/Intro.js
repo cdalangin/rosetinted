@@ -45,7 +45,7 @@ export default function Intro() {
             <div className="intro-text">
                 <Anime opacity={[0, 1]} translateY={'1em'} delay={(e, i) => i * 2000}>
                     {texts.map(text => (
-                        <img src={text.img} alt={text.name} className="intro-graphics"/>
+                        <img src={text.img} alt={text.name} className="intro-graphics hvr-hang"/>
                     ))}
                 </Anime>
 

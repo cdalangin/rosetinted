@@ -1,6 +1,17 @@
+@font-face {
+    font-family: "LemonTea";
+    src: url("../assets/fonts/LemonTea.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Butterbean";
+    src: url("../assets/fonts/Butterbean.ttf") format("truetype");
+} 
+
 #graphics {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #fbeef5;
@@ -9,4 +20,48 @@
     background-size: 100vw;
     background-position: center;
     overflow: hidden;
+}
+
+.graphic-text {
+    font-family: "Butterbean";
+    font-size: 4vh;
+    color: #E59392;
+    margin-bottom: 5vh;
+}
+
+.middle-grp {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.middle-graphics {
+    height: 40vh;
+}
+
+.l {
+    align-self: flex-start;
+}
+
+.r {
+    align-self: flex-end;
+}
+
+.final-graphic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.grp1 {
+    width: 80vh;
+}
+
+.grp2 {
+    width: 80vw;
 }

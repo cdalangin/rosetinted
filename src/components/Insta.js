@@ -121,6 +121,56 @@ export default function Insta() {
             "quote": "14% of boys report that Instagram made them feel worse about themselves¹",
             "bad": true
         },
+        {
+            "name": "Paris",
+            "style": {
+                "opacity": "1", 
+            },
+            "quote": "“bla”",
+            "bad": false
+        },
+        {
+            "name": "valentines gifts",
+            "style": {
+                "opacity": "1", 
+            },
+            "quote": "Bla bla bla",
+            "bad": false
+
+        },
+        {
+            "name": "mirror selfie",
+            "style": {
+                "opacity": "1", 
+            },
+            "quote": "blabla¹",
+            "bad": false
+        },
+        {
+            "name": "Shoes",
+            "style": {
+                "opacity": "1", 
+            },
+            "quote": "“x”",
+            "bad": false
+        },
+        {
+            "name": "Crochet Flowers",
+            "style": {
+                "opacity": "1", 
+            },
+            "quote": "Bla bla bla",
+            "bad": false
+
+        },
+        {
+            "name": "Marriage",
+            "style": {
+                "opacity": "1", 
+            },
+            "quote": "¹",
+            "bad": false
+        },
     ]
 
     const tags = [TagA, TagB, TagC]
@@ -149,13 +199,6 @@ export default function Insta() {
 
     const onIpad = () => {
         setIsOn(!isOn);
-        
-
-        // if (ipadClicks === 0) {
-        //     ipadClicks += 1;
-        //     setHasCta(false)
-        // }
-
         setHasCta(!hasCta)
     }
 

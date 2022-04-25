@@ -5,6 +5,24 @@ import {Link} from "react-router-dom";
 
 export default function Settings() {
 
+    const instaCreds = [
+        "https://www.instagram.com/p/CbL0dA1MSdK/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CbsO4tYslz2/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CbiY6vUBoWj/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CbyQo5QqPoZ/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CaqywQUvuqE/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/Cb8foOBsSGs/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CZnBhVaPH38/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CanMnE7KO-j/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CbNnKihPZ6k/?igshid=YmMyMTA2M2Y=",
+        "https://instagram.com/elenamiist?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/Ca9uBNIs0P-/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CapZLp5ot7g/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CZ905QFqR1T/?igshid=YmMyMTA2M2Y=",
+        "https://www.instagram.com/p/CZ-lVJjvaPb/?igshid=YmMyMTA2M2Y=",
+        "https://instagram.com/kyliejenner?igshid=YmMyMTA2M2Y=",
+    ]
+
     return(
         <div className="about-page">
             <div className="abt abt-head"></div>
@@ -21,6 +39,15 @@ export default function Settings() {
                         <a href="https://www.flaticon.com/free-icons/leaf" title="leaf icons" className="creds">Leaf icons created by Good Ware - Flaticon</a>
                         <a href="https://www.flaticon.com/free-icons/heart" title="heart icons" className="creds">Heart icons created by smalllikeart - Flaticon</a>
                         <a href="https://www.flaticon.com/free-icons/search" title="search icons" className="creds">Search icons created by Taufik - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/volunteer" title="volunteer icons" className="creds">Volunteer icons created by Freepik - Flaticon</a>
+                        <p className="abt-p">Instagram Posts</p>
+                        <div className="all-insta">
+                        {
+                            instaCreds.map(cred =>(
+                                <a href={cred} className="creds">[x]</a>
+                            ))
+                        }
+                        </div>
                     </div>
 
                     <h3 className="abt-titles">References</h3>

@@ -65,14 +65,6 @@
         display: block;
     }
 
-    /* .cta1 {
-        display: block;
-    }
-
-    .cta2 {
-        display: none;
-    } */
-
     .ipad-button {
         display: block;
         height: 4.5vw;
@@ -256,5 +248,33 @@
 
 .insta11:hover {
     background-image: url("../assets/gridimg/altl.jpg");
+}
+
+.insta12 {
+    background-image: url("../assets/gridimg/imgm.png");
+}
+
+/* .insta12:hover {
+    background-image: url("../assets/gridimg/altm.jpg");
+} */
+
+.insta13 {
+    background-image: url("../assets/gridimg/imgn.png");
+}
+
+.insta14 {
+    background-image: url("../assets/gridimg/imgo.png");
+}
+
+.insta15 {
+    background-image: url("../assets/gridimg/imgp.png");
+}
+
+.insta16 {
+    background-image: url("../assets/gridimg/imgq.png");
+}
+
+.insta17 {
+    background-image: url("../assets/gridimg/imgr.png");
 }
 
